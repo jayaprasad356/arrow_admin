@@ -43,22 +43,7 @@ include "header.php";
         </section>
         <section class="content">
             <div class="row">
-                <div class="col-lg-3 col-xs-6">
-                    <div class="small-box bg-aqua">
-                        <div class="inner">
-                            <h3><?php
-                            $sql = "SELECT * FROM users";
-                            $db->sql($sql);
-                            $res = $db->getResult();
-                            $num = $db->numRows($res);
-                            echo $num;
-                             ?></h3>
-                            <p>Users</p>
-                        </div>
-                        <div class="icon"><i class="fa fa-user"></i></div>
-                        <a href="users.php" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
+
                 <div class="col-lg-3 col-xs-6">
                     <div class="small-box bg-yellow">
                         <div class="inner">
