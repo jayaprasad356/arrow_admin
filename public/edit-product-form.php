@@ -152,7 +152,7 @@ if (isset($_POST['btnCancel'])) { ?>
 									 </div>
 								</div>
 						   </div>
-						   <hr>
+						   <br>
 						   <div class="row">
 							    <div class="form-group">
 								    <div class="col-md-4">
@@ -165,7 +165,7 @@ if (isset($_POST['btnCancel'])) { ?>
 									 </div>
 								</div>
 						   </div>
-						   <hr>
+						   <br>
 						   <div class="row">
 								<div class="form-group">
 								    <div class="col-md-4">
@@ -177,8 +177,6 @@ if (isset($_POST['btnCancel'])) { ?>
 									
 								</div>
 						   </div>
-						   <hr>
-						
 					
 						</div><!-- /.box-body -->
                        

@@ -15,7 +15,7 @@ $fn = new custom_functions;
 <head>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/ico" href="<?= 'dist/img/' . $res_logo[0]['value'] ?>">
+    <link rel="icon" type="image/ico" href=dist/img/logo.jpeg>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
@@ -103,8 +103,8 @@ $fn = new custom_functions;
             <a href="home.php" class="logo">
                 <!-- mini logo for sidebar mini 50x50 pixels -->
                 <span class="logo-mini">
-                    <h2>Arrowfurniture</h2>
-                </span>
+                          <img src="dist/img/logo.jpeg" style="height:40px;width:40px;border-radius:10px;" alt="">
+               </span>
                 <!-- logo for regular state and mobile devices -->
                 <span class="logo-lg">
                     <h3>Arrowfurniture</h3>
@@ -120,13 +120,13 @@ $fn = new custom_functions;
                     <ul class="nav navbar-nav">
                             <li class="dropdown user user-menu">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    <img src="images/avatar.png" class="user-image" alt="User Image">
+                                    <img src="dist/img/favicon.jpeg" class="user-image" alt="User Image">
                                     <span class="hidden-xs">Admin</span>
                                 </a>
                                 <ul class="dropdown-menu">
                                     <!-- User image -->
                                     <li class="user-header">
-                                        <img src="images/avatar.png" class="img-circle" alt="User Image">
+                                        <img src="dist/img/favicon.jpeg" class="img-circle" alt="User Image">
                                         <p>
                                             Admin
                                             <small>admin@gmail.com</small>
